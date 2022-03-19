@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <typeinfo>
-#include "Array.tpp"
+#include "Array.hpp"
 
 #define MAX_VAL 750
 #define DEBUG 0
