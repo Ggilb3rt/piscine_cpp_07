@@ -17,13 +17,6 @@ std::ostream & operator<<( std::ostream & o, Main const & i) {
 }
 
 
-
-
-template< typename T>
-void	print(T obj) {
-	std::cout << obj << std::endl;
-}
-
 int main() {
 	int			arrInt[] = {87, 123, 9};
 	float		arrF[] = {23.13, 34, 12.87, 355.4};

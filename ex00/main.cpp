@@ -14,8 +14,14 @@ int main() {
 	std::string c = "chaine1";
 	std::string d = "chaine2";
 	::swap(c, d);
-	std::cout << "c = " << c << ", d = " << d << std::endl;
+	std::cout << std::endl << "c = " << c << ", d = " << d << std::endl;
 	std::cout << "min( c, d ) = " << ::min( c, d ) << std::endl;
 	std::cout << "max( c, d ) = " << ::max( c, d ) << std::endl;
+
+
+	float	e = 23.23;
+	float	f = 42;
+	::swap(e, f);
+	std::cout << std::endl << "e = " << e << ", f = " << f << std::endl;
     return 0;
 }
