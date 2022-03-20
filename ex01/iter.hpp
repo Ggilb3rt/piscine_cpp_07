@@ -11,9 +11,4 @@ void	iter(T arr[], size_t const arrLength, void f(T const & arr)) {
 	}
 }
 
-template< typename T>
-void	print(T obj) {
-	std::cout << obj << std::endl;
-}
-
 #endif

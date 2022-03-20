@@ -1,6 +1,7 @@
 #include <iostream>
 #include "iter.hpp"
 
+/*-----------------Tests-----------------*/
 class Main
 {
 public:
@@ -15,6 +16,13 @@ std::ostream & operator<<( std::ostream & o, Main const & i) {
 	o << i.myName;
 	return o;
 }
+
+
+template< typename T>
+void	print(T obj) {
+	std::cout << obj << std::endl;
+}
+/*----------------------------------------*/
 
 
 int main() {

@@ -68,7 +68,8 @@ int main(int, char**)
 
     for (unsigned int i = 0; i < lel.size(); i++)
     {
-        std::cout << "lel[" << i << "] : " << lel[1] << std::endl;
+        lel[i] = 10.34 + i;
+        std::cout << "lel[" << i << "] : " << lel[i] << std::endl;
     }
     try
     {
@@ -111,8 +112,8 @@ int main(int, char**)
     }
     
 
-    std::cout << std::endl << std::endl << "--------------int* tests-------------" << std::endl << std::endl;
-    Array<int*> fullZero(5);
+    std::cout << std::endl << std::endl << "--------------float* tests-------------" << std::endl << std::endl;
+    Array<float*> fullZero(5);
 
     std::cout << "fullZero : " << std::endl;
     for (size_t i = 0; i < fullZero.size(); i++)
