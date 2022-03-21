@@ -96,8 +96,6 @@ int main(int, char**)
 
 
 
-
-
     std::cout << std::endl << std::endl << "--------------Char tests-------------" << std::endl << std::endl;
     Array<char> abc(26);
 
@@ -110,17 +108,6 @@ int main(int, char**)
     {
         std::cout << "\t" << abc[i] << std::endl;
     }
-    
-
-    std::cout << std::endl << std::endl << "--------------float* tests-------------" << std::endl << std::endl;
-    Array<float*> fullZero(5);
-
-    std::cout << "fullZero : " << std::endl;
-    for (size_t i = 0; i < fullZero.size(); i++)
-    {
-        std::cout << "\t" << fullZero[i] << std::endl;
-    }
-
 
 
     std::cout << std::endl << std::endl << "--------------String tests--------------" << std::endl << std::endl;

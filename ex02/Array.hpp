@@ -45,6 +45,7 @@ class Array
 			return this->array[index];
 		};
 
+
 		unsigned int	size() const;
 
 
